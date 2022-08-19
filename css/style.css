@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;900&family=Fauna+One&display=swap');
+/*
+font-family: 'Cinzel', serif;
+font-family: 'Fauna One', serif;
+*/
+
+
+/*HEADER*/
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #efd3d0;
+    flex-wrap: wrap;
+    /*padding: 10px;
+    top: 0px;
+    margin: 0px;*/
+    /*background-size: cover;*/
+    width: 100%;
+    font-size: 15px;
+}
+
+
+
+.logo {
+    margin: 5px;
+    width: 90px;
+    height: 90px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #cc4f9a;
+    font-weight: bold;
+}
+
+.navbar li  a:hover  {
+    color: rgb(197, 133, 213);
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
+
+
+header .navbar {
+    display: flex;
+    flex-direction: row;
+
+    list-style-type: none;
+    flex-wrap: wrap;
+    font-size: 1.625em;
+    font-family: 'Fauna One', serif;
+    background-color: #efd3d0;
+    box-sizing: border-box;
+
+}
+
+
+
+li {
+    margin: 10px 20px;
+    list-style-type: none;
+}
+
+
+.searchhead {
+    margin: 25px 10px 10px 15px;
+}
+
+
+
+
+/*MAIN INDEX*/
+
+
+main {
+    font-size: 10px;
+    min-height: 80vh;
+}
+
+
+h1 {
+    font-size: 3.5em;
+    font-family: 'Fauna One', serif;
+    color: #e2928a;
+    /* margin-left: 45%;
+    margin-top: 40px;
+    margin-bottom: 20px;*/
+    text-align: center;
+}
+
+
+
+.uberuns {
+    font-size: 1.35em;
+    font-family: 'Fauna One', serif;
+    color: #b76962;
+    display: block;
+    padding: 2em;
+    content: 250px;
+    width: 450px;
+    height: auto;
+    margin: 50px auto;
+    position: relative;
+}
+
+
+
+/*.marcar {
+    width:100px;
+   position: absolute;
+   opacity: 0.55;
+   height:100px;}*/
+
+
+
+
+
+.sntext {
+    position: relative;
+
+}
+
+
+
+.snh {
+    padding: 1.5em 2.5em 5px 1.5em;
+    /*left: 250px;*/
+}
+
+
+.snp {
+    padding: 1.5em 5em;
+}
+
+
+.marcab {
+    /*width:100px;
+    
+    opacity: 0.55;
+    height:100px;*/
+    right: 45px;
+    bottom: 0px;
+
+
+}
+
+.decoim {
+    width: 6.8em;
+    height: 6.8em;
+    opacity: 0.55;
+    position: absolute;
+
+}
+
+
+
+/*PRODUCTOS INDEX*/
+
+.mainimg {
+    margin-top: 76px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+
+h2 {
+    display: block;
+    text-align: center;
+    font-size: 1.85em;
+    font-family: 'Fauna One', serif;
+    color: #b76962;
+}
+
+
+.prodindex {
+    /*width: 350px;
+    height: 350px;*/
+    width: 35em;
+    height: 35em;
+    margin: 15px;
+    position: relative;
+}
+
+
+
+
+
+
+.simor {
+
+    font-size: 1.5em;
+    font-family: 'Fauna One', serif;
+    text-align: center;
+    display: block;
+
+}
+
+
+
+
+
+
+
+/*MAIN PRODUCTOS Y PROMOCIONES*/
+
+
+.indiceprod {
+    position: relative;
+    
+}
+
+
+
+.cartelprod {
+    margin: 10px;
+}
+
+.aclaracion {
+    position: relative;
+    display: block;
+    text-align: center;
+    opacity: 0.8;
+    font-family: 'Fauna One', serif;
+    color: #df96c2;
+    font-size: 2em;
+    background-color: #3a2b2a;
+    margin-left: 20px;
+    margin-right: 15px;
+
+
+}
+
+
+
+.divisiones {
+    margin-top: 200px;
+    font-size: 10px;
+    
+}
+
+.subindpro {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+
+}
+
+.prod2 {
+    position: relative;
+    width: 35em;
+    height: 32em;
+    margin: 15px;
+}
+
+.prod2a {
+
+    width: 26em;
+    height: 27em;
+    /*margin: 15px;*/
+}
+
+.prod2b {
+    width: 37em;
+    height: 25em;
+}
+
+
+.prod2c {
+    width: 25em;
+    height: 29em;
+}
+
+.prod2d {
+    position: relative;
+    width: 35em;
+    height: 35em;
+}
+
+
+.grid-container{
+    max-width: 850px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    grid-row-gap: 15px;
+    
+
+}
+
+.grid-container div{
+    width: 25em;
+    height: 25em;
+    overflow: hidden;
+    border-radius: 25%;
+}
+
+
+
+
+
+
+
+
+/*FORMULARIO*/
+
+
+.contform {
+    display: block;
+    margin-left: 45%;
+}
+
+
+
+
+
+label {
+    font-family: 'Fauna One', serif;
+    font-size: 1.6em;
+}
+
+
+
+
+/*FOOTER*/
+
+
+
+
+
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    font-size: 9px;
+    background-color: #efd3d0;
+
+}
+
+.bannfoot {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    opacity: 0.45;
+    background-repeat: repeat;
+}
+
+.igface {
+    position: relative;
+    height: 3em;
+    width: 5em;
+}
+
+
+
+
+
+
+
+/*TAMAÑO MEDIANO*/
+
+@media (max-width: 850px) {
+    header {
+
+        justify-items: center;
+        font-size: 9px;
+    }
+
+
+    .navbar {
+        /* width: 180px;
+        justify-content: space-around;
+        
+        flex-wrap: nowrap;*/
+
+        
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        margin: auto;
+    }
+
+    footer {
+        font-size: 8px;
+    }
+
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+        font-size: 9px;
+
+    }
+    .divisiones {
+        font-size: 9px;
+
+    }
+    .contform {
+        margin-left: 28em;
+    }
+
+}
+
+@media (max-width:680px) {
+
+    header {
+
+        justify-items: center;
+        font-size: 7px;
+    }
+
+    main {
+        font-size: 6.9px;
+    }
+
+    .uberuns {
+        /*padding: 30px;*/
+        content: 200px;
+        width: 303px;
+
+
+    }
+
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+        font-size: 7px;
+
+    }
+    .home {
+        display: none;
+    }
+
+    .divisiones {
+        font-size: 7px;
+
+    }
+
+
+    .contform {
+        margin-left: 1em;
+    }
+
+
+
+    footer {
+        font-size: px;
+    }
+
+
+}
+
+
+/**/
