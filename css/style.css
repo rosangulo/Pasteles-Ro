@@ -461,4 +461,11 @@ footer {
 }
 
 
-/**/
+
+
+
+/*@media (max-width:380px) {
+    * {
+        font-size:6px ;
+    }
+}*/
